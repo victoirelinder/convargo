@@ -139,10 +139,6 @@ shipping price = distance + volume
 Write JS code that generates the shpping price for each `shipper` from `index.js` file:
 
 ```js
-const deliveries = ...;
-...
-console.log(deliveries);
-
 //example output from console.log
 [
   {
@@ -182,10 +178,6 @@ To be as competitive as possible, convargo decide to have a decreasing pricing f
 Adapt the shipping price computation to take these new rules into account.
 
 ```js
-const deliveries = ...;
-...
-console.log(deliveries);
-
 //example output from console.log
 [
   {
@@ -225,11 +217,6 @@ The commission is split like this:
 Compute the amount that belongs to the insurance, to the assistance and to convargo.
 
 ```js
-const deliveries = ...;
-...
-console.log(deliveries);
-
-
 //example output from console.log
 [
   {
@@ -262,10 +249,6 @@ The driver is charged an additional 1€/m3 when he chooses the `deductible redu
 Compute the new amount price if the shipper subscribed to `deductible option`.
 
 ```js
-const deliveries = ...;
-...
-console.log(deliveries);
-
 //example output from console.log
 [
   {
@@ -298,10 +281,6 @@ It's time to debit/credit each actor!
 * Compute the credit of the car `trucker`, `insurance`, and `convargo`.
 
 ```js
-const actors = ...;
-...
-console.log(actors);
-
 //example output from console.log
 [
   {
@@ -340,8 +319,8 @@ console.log(actors);
 
 ## Source and inspiration
 
-[Convargo](https://www.convargo.com/)
-[Drivy Challenges](https://github.com/drivy/jobs)
+* [Convargo](https://www.convargo.com/)
+* [Drivy Challenges](https://github.com/drivy/jobs)
 
 ## Licence
 

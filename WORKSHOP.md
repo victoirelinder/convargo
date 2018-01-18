@@ -2,15 +2,31 @@
 
 ---
 
-2018 french startup
+2018
+
+french startup
 
 ---
 
-CONVARGO
+convargo.com
 
 ---
 
 wants to revolutionise the freight industry
+
+---
+
+* 300 billion euros in Europe
+* 43 billion euros in France
+* 1/3 trucks drive empty on France roads!
+
+---
+
+1/3 trucks drive empty on France roads
+
+---
+
+How?
 
 ---
 
@@ -19,13 +35,6 @@ by connecting shippers with truckers in real time
 ---
 
 16 000 000
-
----
-
-
-* 300 billion euros in Europe
-* 43 billion euros in France
-* 1/3 trucks drive empty on Fance roads!
 
 ---
 
@@ -45,9 +54,9 @@ Focus on the price platform feature
 
 ---
 
-1. compute the ship price for the `shippers`
-2. compute the profit for the `truckers`
-3. compute the commission `convargo`
+1. shipping price for the `shippers`
+2. profit for the `truckers`
+3. commission `convargo`
 
 ---
 
@@ -61,7 +70,7 @@ Focus on the price platform feature
 
 Euro-Volume
 
-Step 1.
+### Step 1
 
 ---
 
@@ -76,7 +85,7 @@ shipping price = distance + volume
 
 Ship more, pay less
 
-Step 2.
+### Step 2
 
 ---
 
@@ -90,7 +99,7 @@ Decreasing pricing
 
 Give me all your money
 
-Step 3.
+### Step 3
 
 ---
 
@@ -108,7 +117,7 @@ Commission
 
 The famous deductible
 
-Step 4.
+### Step 4
 
 ---
 
@@ -120,11 +129,15 @@ The deductible
 
 Pay the actors
 
-Step 5.
+### Step 5
 
 ---
 
-the shipper, the trucker, the insurance and convargo
+the shipper, the trucker
+
+---
+
+the insurance, the Treasury and convargo
 
 ---
 
@@ -138,24 +151,6 @@ Just tell me what to do
 
 * Clone the project
 
-`git clone ...`
-
----
-
-*  Solve each exercises inside `index.js` file with JavaScript
-
----
-
-* Once the exercise is solved, commit
-
----
-
-* 5 exercises... 5 commits
-
----
-
-* Don't forget to push before the end of the workshop
-
 ---
 
 * Open index.html in your browser
@@ -163,6 +158,23 @@ Just tell me what to do
 ---
 
 * Check the ouput in your browser console
+
+---
+
+*  Solve each steps inside `index.js` file with JavaScript
+
+---
+
+* Once the step is solved, commit
+
+---
+
+* 5 steps... 5 commits
+
+---
+
+* Don't forget to push before the end of the workshop
+
 
 ---
 
