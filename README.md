@@ -56,22 +56,54 @@ The [Convargo](https://www.youtube.com/watch?v=7hrDZluvtXo) platform allows ship
 
 We focus on this platform feature: `compute and display the transport price calculated according to the best opportunities on the market at a time T`.
 
-The next exercises goals are to
+The workshop goals are to
 
-1. compute the ship price for the `shippers`
+1. compute the shipping price for the `shippers`
 2. compute the profit of the road transport company, the `truckers`
-3. compute the commission of `convargo`
+3. compute the profit of `convargo`
 
 ## Just tell me what to do
 
 1. Fork the project via `github`
-1. Clone the project `git clone https://github.com/YOUR_USERNAME/convargo`
-1. Solve each exercises inside [./public/index.js](./public/index.js) file with JavaScript
-1. Once the exercise is solved, commit something like `git add -A && git commit -m "feat(price): decrease pricing for higher volume"` ([why following a convention?](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#commits))
-1. 5 exercises, so ideally 5 commits
+1. Clone your forked repository project `https://github.com/YOUR_USERNAME/convargo`
+
+```sh
+❯ cd /path/to/workspace
+❯ git clone git@github.com:YOUR_USERNAME/convargo.git
+```
+
+1. Open the entry point[/public/index.html](./public/index.html) in your browser (that loads the `index.js` file)
+
+```sh
+# macos cli
+❯ open public/index.html
+# linux cli
+❯ xdg-open public/index.html
+# or by double-clicking in your browser files
+```
+
+1. Check the ouput in your browser console (Use `Ctrl + Shift + J` or `Cmd + Opt + J` to focus to your console devtools )
+1. Solve each steps inside [./public/index.js](./public/index.js) file with JavaScript
+1. Once a step is solved, commit your modification:
+
+```sh
+❯ cd /path/to/workspace/convargo
+❯ git add -A && git commit -m "feat(price): decrease pricing for higher volume"
+```
+
+([why following a commit message convention?](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#commits))
+
+1. 5 steps, so ideally 5 commits
 1. Don't forget to push before the end of the workshop
-1. Check that your codebase works by opening [/public/index.html](./public/index.html) in your browser
-1. Check the ouput in your browser console
+
+```sh
+❯ git push origin master
+```
+
+**Note**: if you catch an error about authentication, [add your ssh to your github profile](https://help.github.com/articles/connecting-to-github-with-ssh/).
+
+1. Check that your codebase works by checking the console output
+1. If you need some helps on git commands, read [git - the simple guide](http://rogerdudler.github.io/git-guide/)
 
 ### Don't forget:
 
@@ -81,9 +113,9 @@ The next exercises goals are to
 * LIM - Less Is More
 * English only: codebase, variables, comments...
 
-**Focus only on coding, forgot the browser display (next workshop!).
+**Focus only on coding, forgot the browser display (next workshop!).**
 
-Use `console.log` to display results (for the moment)**
+**Use `console.log` to display results (for the moment)**
 
 ## Steps to do
 
