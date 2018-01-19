@@ -202,7 +202,7 @@ Adapt the shipping price computation to take these new rules into account.
 
 Now, it's time to pay the truckers
 
-Convargo take a 30% commission on the shipping price to cover their costs.
+There is a 30% commission on the shipping price to cover the costs.
 
 #### Commission
 
