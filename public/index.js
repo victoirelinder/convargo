@@ -178,8 +178,26 @@ deliveries.forEach(function(delivery){
        {
          
          delivery.price = delivery.price + delivery.volume;
+         delivery.convargo = delivery.convargo + delivery.volume;
        }
        console.log(delivery.price);
+
+       actors.forEach(function(acteur){
+
+        if(delivery.id == acteur.deliveryId)
+        {
+          acteur.payment[0].amount = delivery.price;
+          acteur.payment[1].amount = delivery.price*(70/100);
+          acteur.payment[2].amount = delivery.insurance;
+          acteur.payment[3].amount = delivery.treasury;
+          acteur.payment[4].amount = delivery.convargo;
+        }
+        console.log(" le shipper paye "+ acteur.payment[0].amount);
+        console.log(" la com est de "+acteur.payment[1].amount);
+        console.log("l'assurance :"+ acteur.payment[2].amount);
+        console.log(" la tresorerie " + acteur.payment[3].amount);
+        console.log(" convargo "+  acteur.payment[4].amount );
+       })
     }
   }) 
   
